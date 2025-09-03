@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Merriweather", sans-serif;
+    background-color: #f0f0f0;
+    background-image: radial-gradient(#ccc 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+}
+
+#herobgimage {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+    filter: drop-shadow(0px 12px 24px #000000);
+}
+
+#selfimage {
+    width: 500px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: relative;
+    margin-top: -800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(0px 12px 24px #000000);
+}
+
+.HeroName {
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-size: 3rem;
+    color: white;
+    margin-top: 20px;
+}
+
+.Info {
+    width: 700px;
+    margin: 20px auto 0;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+.Info h1 {
+    font-size: 1.5rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+hr {
+    border: none;
+    height: 4px;
+    background: linear-gradient(45deg, #0F4C81, #1100ff);
+    margin: 30px auto;
+    width: 60%;
+}
+
+.Info2 {
+    display: flex;
+    width: 1000px;
+    margin: 100px auto 0;
+}
+
+.Info2 p {
+    font-size: 1.4rem;
+}
+
+.Info2 h1 {
+    font-size: 2.8rem;
+    color: #0F4C81;
+    font-family: "Merriweather", sans-serif;
+}
+
+.InfoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto 0;
+}
+
+.InfoContainer img {
+    width: 400px;
+    height: auto;
+    border: 5px solid #0b0b49;
+    filter: drop-shadow(0px 12px 24px #000000);
+    margin-right: 50px;
+}
+
+.Featured {
+    font-family: "Orbitron", sans-serif;
+}
+
+.Featured h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 10px;
+    color: #0F4C81;
+}
+
+#About {
+    margin-top: 200px;
+}
+
+#mc1image,
+#frontend1image {
+    display: block;
+    width: 1200px;
+    height: auto;
+    border: 5px solid #0b0b49;
+    filter: drop-shadow(0px 12px 24px #000000);
+    margin: 0 auto;
+}
+
+.Featured2 h2 {
+    margin-top: 50px;
+    font-family: "Orbitron", sans-serif;
+}
+
+h2{
+  text-align: center;
+}
+
+.InfoContainerText h1{
+  font-family:"Orbitron",sans-serif;
+}
+
+@media (max-width: 600px) {
+    #herobgimage {
+        width: 100%;
+        height: auto;
+    }
+
+    #selfimage {
+        width: 250px;
+        margin-top: -100px;
+    }
+
+    .Info2,
+    .InfoContainer {
+        width: 95%;
+        flex-direction: column;
+        text-align: center;
+        margin: -50px auto 0;
+    }
+
+    .InfoContainer img {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .HeroName {
+        font-size: 2rem;
+        color: black;
+    }
+
+    .Info {
+        width: 90%;
+        font-size: 1.2rem;
+        color: black;
+    }
+
+    .Info2 h1 {
+        font-size: 2rem;
+    }
+
+    .Info2 p {
+        font-size: 1rem;
+    }
+
+    .InfoContainerText {
+        margin-top: 50px;
+    }
+
+    #mc1image,#frontend1image {
+        width: 90%;
+    }
+
+    .Featured h1 {
+        font-size: 2rem;
+    }
+  }
