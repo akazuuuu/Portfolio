@@ -12,6 +12,7 @@ body {
     background-position: 0 0, 10px 10px;
 }
 
+
 #herobgimage {
     width: 100%;
     height: auto;
@@ -31,6 +32,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     filter: drop-shadow(0px 12px 24px #000000);
+
 }
 
 .HeroName {
@@ -107,6 +109,7 @@ hr {
 
 #About {
     margin-top: 200px;
+
 }
 
 #mc1image,
@@ -117,6 +120,7 @@ hr {
     border: 5px solid #0b0b49;
     filter: drop-shadow(0px 12px 24px #000000);
     margin: 0 auto;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .Featured2 h2 {
@@ -132,6 +136,13 @@ h2{
   font-family:"Orbitron",sans-serif;
 }
 
+#mc1image:hover,
+#frontend1image:hover{
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px black;
+}
+
+/*Responsive*/
 @media (max-width: 600px) {
     #herobgimage {
         width: 100%;
@@ -187,3 +198,17 @@ h2{
         font-size: 2rem;
     }
   }
+
+  
+  /*KEYFRAMES*/
+
+@keyframes fadeinup {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
