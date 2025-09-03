@@ -95,3 +95,35 @@ hr {
     max-width: 800px;
     text-align: center;
 }
+
+.mcHeroP{
+    font-size: 2.5rem;
+}
+
+@media(max-width: 600px) {
+    #mc4image {
+        height: auto;
+    }
+
+    .mcHeroContainer h1 {
+        font-size: 3rem;
+    }
+
+    .mcHeroP {
+        font-size: 1.5rem;
+    }
+    .mcFlex h1 {
+        font-size: 2rem;
+    }
+
+    .mcBoxImage{
+        width: 80%;
+        height: auto;
+    }
+
+    .carouselShit {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+}
