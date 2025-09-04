@@ -198,8 +198,109 @@ h2{
         font-size: 2rem;
     }
   }
+@media (max-width: 1440px) and (min-width: 1024px) {
+    #selfimage {
+        width: 400px;
+        margin-top: -350px;
+    }
 
-  
+    .HeroName {
+        color:black
+    }
+
+    .Info {
+        color: black;
+    }
+    .InfoContainerText{
+        color: black;
+        margin-top: -150px;
+    }
+
+    .Info {
+        width: 80%;
+        font-size: 1.1rem;
+    }
+
+    .Info2 {
+        width: 90%;
+        margin: 10px auto 0;
+    }
+
+    .InfoContainer img {
+        width: 300px;
+        margin-right: 20px;
+    }
+
+    .HeroName {
+        font-size: 2.5rem;
+    }
+
+    #mc1image,
+    #frontend1image {
+        width: 95%;
+    }
+
+    .Featured h1 {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media(max-width: 872px) and (min-width: 700px) {
+    #selfimage {
+        width: 300px;
+        margin-top: -250px;
+    }
+
+    .HeroName {
+        color:black
+    }
+
+    .Info {
+        color: black;
+    }
+    .InfoContainerText{
+        color: black;
+        margin-top: -150px;
+    }
+
+    .InfoContainerText h1{
+        font-size: 2rem;
+    }
+
+    .InfoContainerText p{
+        font-size: 1rem;s
+    }
+    .Info {
+        width: 80%;
+        font-size: 1.1rem;
+    }
+
+    .Info2 {
+        width: 90%;
+        margin: 10px auto 0;
+        
+    }
+
+    .InfoContainer img {
+        width: 250px;
+        
+    }
+
+    .HeroName {
+        font-size: 2.5rem;
+    }
+
+    #mc1image,
+    #frontend1image {
+        width: 95%;
+    }
+
+    .Featured h1 {
+        font-size: 2.5rem;
+    }
+    
+}
   /*KEYFRAMES*/
 
 @keyframes fadeinup {

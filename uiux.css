@@ -1,0 +1,107 @@
+.carouselShit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    filter: drop-shadow(0px 12px 24px #000000);
+}
+
+.uiuxTitle{
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    color: #0F4C81;
+    margin-top: 50px;
+}
+
+.HeroTitleUIUX{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 500px;  
+    width: 90%;         
+    text-align: center;
+    color: #0F4C81;
+    padding-top: 10px;
+    word-wrap: break-word;
+}
+
+.HeroTitleUIUX p{
+    font-family: "Merriweather", sans-serif;
+    font-size: 1.25rem;    
+    line-height: 1.6;     
+    margin-top: 10px;
+    overflow-wrap: break-word;
+
+}
+
+hr {
+    border: none;
+    height: 4px;
+    background: linear-gradient(45deg, #0F4C81, #1100ff);
+    margin: 30px auto;
+    width: 60%;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 50px auto;
+    max-width: 100%;
+    flex-wrap: wrap;  
+}
+
+.card{
+    width: 380px;
+    height: auto;
+    filter: drop-shadow(0px 12px 24px #000000);
+
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: "merriweather", sans-serif;
+}
+
+.card h5{
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.5rem;
+    color: #0F4C81;
+    margin-bottom: 10px;
+}
+
+
+.card:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+@media(max-width: 600px) and (min-width: 320px) {
+
+    .carouselShit {
+        width: 90%;
+        height: auto;
+    }
+
+    .HeroTitleUIUX{
+        max-width: 100%;
+        width: 90%;         
+    }
+
+    .card{
+        width: 90%;
+    }
+}
+
+@media (max-width: 1440px) and (min-width: 1024px){
+    .carouselShit {
+        width: 80%;
+    }
+}
+
+@media(max-width: 872px) and (min-width: 700px) {
+}

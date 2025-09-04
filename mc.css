@@ -100,7 +100,7 @@ hr {
     font-size: 2.5rem;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 600px) and (min-width: 320px) {
     #mc4image {
         height: auto;
     }
@@ -123,6 +123,32 @@ hr {
 
     .carouselShit {
         width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .mcText{
+        font-size: 0.2rem;
+    }
+}
+
+@media (max-width: 1440px) and (min-width: 1024px){
+    .mcHeroContainer h1 {
+        font-size: 4rem;
+    }
+
+    .mcHeroP {
+        font-size: 2rem;
+    }
+
+    .mcFlex h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width: 872px) and (min-width: 700px) {
+    .carouselShit{
+        width: 90%;
         height: auto;
         padding: 20px;
     }
